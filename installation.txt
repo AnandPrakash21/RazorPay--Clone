@@ -1,0 +1,30 @@
+1. install node
+2. run command in terminal in vs
+    {
+    npm install -D tailwindcss postcss autoprefixer vite
+    npx tailwindcss init -p
+    }
+3. Tailwind CSS IntelliSense install krna hai vs 
+4. Add * in the content --> jo ki tailwind.config mai content hai usme "*" add krna hai 
+5. Add scripts in the package.json
+    {
+        "scripts": {
+        "start": "vite"
+    }
+    }
+6. Create main.css and insert and link:
+    1. @tailwind base;
+    2. @tailwind components;
+    3. @tailwind utilities;
+
+Note:- 
+    To see the changes we have run a command // npm run start
+
+icons ke liye
+
+<script src="https://unpkg.com/feather-icons"></script>
+run command  npm i feather for the tick icon
+run command npm audit fix--force
+ <script>
+        feather.replace()
+     </script>
